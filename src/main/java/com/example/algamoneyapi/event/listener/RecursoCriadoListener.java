@@ -27,7 +27,5 @@ public class RecursoCriadoListener implements ApplicationListener<RecursoCriadoE
 				.buildAndExpand(codigo).toUri();
 			
 		response.setHeader("Location", uri.toASCIIString());
-	}
-
-	
+	}	
 }
