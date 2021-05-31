@@ -71,6 +71,14 @@
 			<artifactId>hibernate-java8</artifactId>
 		</dependency>
 
+		<!-- Hibernate Metamodel Support -->
+		<!--
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-jpamodelgen</artifactId>
+		</dependency>
+		  -->
+
 		<!-- Suporte do Jackson para datas do Java 8 -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.datatype</groupId>
@@ -80,7 +88,6 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
-			<version>3.10</version>
 		</dependency>
 		
 	</dependencies>
