@@ -44,8 +44,8 @@ public class LancamentoResource {
 	@Autowired
 	private ApplicationEventPublisher publisher;
 	
-	@Autowired
-	private LancamentoService lancamentoService;
+	//@Autowired
+	//private LancamentoService lancamentoService;
 	
 	@Autowired
 	private MessageSource messageSource;
