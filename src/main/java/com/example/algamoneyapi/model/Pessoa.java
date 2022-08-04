@@ -97,5 +97,7 @@ public class Pessoa {
 		return "Pessoa [codigo=" + codigo + ", nome=" + nome + ", ativo=" + ativo + ", endereco=" + endereco + "]";
 	}
 	
-	
+	/*
+	 * Teste exemplo
+	 */
 }
